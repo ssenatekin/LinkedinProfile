@@ -1,0 +1,43 @@
+﻿@model GiveAChance.Models.LinkedINResVM
+
+@{
+    ViewBag.Title = "LinkedINAuth";
+}
+
+<br />
+
+<div class="row">
+    <div class="col-md-12">
+        <label>First Name: @Model.given_name</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Last Name: @Model.family_name</label>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Email: @Model.email</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Photo:  <a href="@Model.picture"> photo </a> </label>
+    </div>
+</div>
+
+
+@* 
+<div class="row">
+    <div class="col-md-12">
+        <label>Profile URL:- <a href="@Model.siteStandardProfileRequest.url" target="_blank"></a> </label>
+    </div>
+</div>
+
+
+ *@
